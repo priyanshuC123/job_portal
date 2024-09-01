@@ -20,7 +20,7 @@ The Job Marketplace App is a web application that connects students with job opp
 
 - **Frontend**: React, Tailwind CSS, React Router, React Select
 - **Backend**: Firebase (Firestore, Authentication, Database)
-- **Deployment**: Vercel.com
+- **Deployment**: Vercel
 
 
 ## Setup & Installation
@@ -59,11 +59,11 @@ To run this project locally, follow these steps:
 
 ## Deployment
 
-The app is deployed on Render.com. To deploy your own version:
+The app is deployed on Vercel To deploy your own version:
 
 1. **Push your code to GitHub.**
-2. **Connect your GitHub repository to Render.com.**
-3. **Set up your environment variables on Render.com** (same as the `.env` file above).
+2. **Connect your GitHub repository to Vercel.**
+3. **Set up your environment variables on Vercel** (same as the `.env` file above).
 4. **Configure the build and start commands:**
    - **Build Command:** `npm run build`
    - **Start Command:** `npm run start`
