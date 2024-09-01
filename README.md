@@ -13,8 +13,7 @@ The Job Marketplace App is a web application that connects students with job opp
 - **Role-Based Access Control**: Different functionalities are accessible based on whether the user is a student, employer, or university employee.
 - **Job Posting**: Employers can post jobs, specifying details like title, description, requirements, location, salary range, and eligible universities.
 - **Job Application**: Students can view job listings and apply for jobs. Employers can view and manage applications.
-- **University Management**: University employees can manage their university's profile and message to employers.
-- **Responsive Design**: The app is fully responsive and works seamlessly on all devices.
+- **University Management**: University employees can manage their university's profile.
 
 ## Tech Stack
 
