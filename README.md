@@ -19,8 +19,8 @@ The Job Marketplace App is a web application that connects students with job opp
 ## Tech Stack
 
 - **Frontend**: React, Tailwind CSS, React Router, React Select
-- **Backend**: Firebase (Firestore, Authentication, Hosting)
-- **Deployment**: Render.com
+- **Backend**: Firebase (Firestore, Authentication, Database)
+- **Deployment**: Vercel.com
 
 
 ## Setup & Installation
