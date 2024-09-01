@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Job Marketplace App
+## Live Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out the live version of the app here: [Job Marketplace App](https://job-portal-tau-eight.vercel.app/)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Job Marketplace App is a web application that connects students with job opportunities posted by employers. The app provides role-based access control, allowing employers to post jobs, students to apply for them, and universities to manage their profiles. The app is built using React, Firebase, and Tailwind CSS.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Authentication**: Secure login and registration using Firebase Authentication.
+- **Role-Based Access Control**: Different functionalities are accessible based on whether the user is a student, employer, or university employee.
+- **Job Posting**: Employers can post jobs, specifying details like title, description, requirements, location, salary range, and eligible universities.
+- **Job Application**: Students can view job listings and apply for jobs. Employers can view and manage applications.
+- **University Management**: University employees can manage their university's profile and message to employers.
+- **Responsive Design**: The app is fully responsive and works seamlessly on all devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Frontend**: React, Tailwind CSS, React Router, React Select
+- **Backend**: Firebase (Firestore, Authentication, Hosting)
+- **Deployment**: Render.com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Setup & Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
+   ```bash
+   https://github.com/priyanshuC123/job_portal.git
+   cd job-marketplace
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Set up Firebase:**
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+   - Enable Firestore, Authentication, and Storage in your Firebase project.
+   - Create a `.env` file in the root directory and add your Firebase configuration:
+     ```
+     REACT_APP_FIREBASE_API_KEY=your-api-key
+     REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
+     REACT_APP_FIREBASE_PROJECT_ID=your-project-id
+     REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+     REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+     REACT_APP_FIREBASE_APP_ID=your-app-id
+     ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Run the app:**
+   ```bash
+   npm start
+   ```
+   The app will be available at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app is deployed on Render.com. To deploy your own version:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Push your code to GitHub.**
+2. **Connect your GitHub repository to Render.com.**
+3. **Set up your environment variables on Render.com** (same as the `.env` file above).
+4. **Configure the build and start commands:**
+   - **Build Command:** `npm run build`
+   - **Start Command:** `npm run start`
 
-## Learn More
+5. **Deploy and access your app at the provided URL.**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Students**: Sign up, browse available jobs, and apply directly through the platform.
+- **Company Employers**: Log in to post jobs, view applications, and manage job listings.
+- **Universities**: Manage university profiles and communicate with potential Company.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or feedback, please feel free to reach out.
